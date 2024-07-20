@@ -7,9 +7,9 @@ const Item = ({ title, price }) => {
   return (
     <>
       <section className="text-gray-400 bg-gray-900 body-font">
-        <div className="container px-20 py-12 mx-auto">
+        <div className="container px-6 py-8 mx-auto">
           <div className="flex flex-wrap -m-2">
-              <div className="h-full border-[4px] border-gray-600 shadow-lg shadow-gray-600 rounded-lg overflow-hidden">
+              <div className="h-80 w-72 border-[4px] border-gray-600 shadow-lg shadow-gray-600 rounded-lg overflow-hidden">
                 <img
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
                   src='/images.jpeg'
