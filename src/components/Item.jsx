@@ -11,7 +11,7 @@ const Item = ({ title, price }) => {
           <div className="flex flex-wrap -m-2">
               <div className="h-80 w-72 border-[4px] border-gray-600 shadow-lg shadow-gray-600 rounded-lg overflow-hidden">
                 <img
-                  className="lg:h-48 md:h-36 w-full object-cover object-center"
+                  className="lg:h-40 md:h-24 w-full object-cover object-center"
                   src='/images.jpeg'
                   alt="blog"
                 />
@@ -28,9 +28,9 @@ const Item = ({ title, price }) => {
                       onClick={() =>
                         cart.setItem([...cart.item, { title, price }])
                       }
-                      className="flex mx-auto mt-8 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                      className="flex mx-auto mt-2 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
                     >
-                      Button
+                      Add to Cart
                     </button>
                 </div>
                 </div>
